@@ -7,7 +7,7 @@
 # 目前没有找到获取域名的方法，请临时手动在11行设置域名。(2024.01.11 19:00)
 # 以前的保活方法已失效，群里已有大佬解决保活问题，稍后再处理保活问题，有关保活请群里咨询。(https://t.me/HiaiFeng)
 
-#URL=${REPL_SLUG}.${REPL_OWNER}.repl.co
+URL="https://$(hostname).repl.co"
 URL="localhost"
 
 export PATH="~/nginx/sbin:~/mysql/sbin:$PATH"
